@@ -63,7 +63,7 @@
             this.MaximumSize = new System.Drawing.Size(540, 1013);
             this.MinimumSize = new System.Drawing.Size(540, 1013);
             this.Name = "Form1";
-            this.Text = "Remozo Car Control";
+            this.Text = "Remozo";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
