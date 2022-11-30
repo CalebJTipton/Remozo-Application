@@ -1,6 +1,6 @@
 ﻿namespace Remozo_Application
 {
-    partial class Form1
+    partial class Loading_Page
     {
         /// <summary>
         ///  Required designer variable.

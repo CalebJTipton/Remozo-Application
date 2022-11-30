@@ -1,8 +1,8 @@
 namespace Remozo_Application
 {
-    public partial class Form1 : Form
+    public partial class Loading_Page : Form
     {
-        public Form1()
+        public Loading_Page()
         {
             InitializeComponent();
         }
