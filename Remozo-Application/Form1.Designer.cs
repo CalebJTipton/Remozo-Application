@@ -36,9 +36,9 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Remozo_Application.Properties.Resources.App___Loading_Screen1;
-            this.pictureBox1.Location = new System.Drawing.Point(-9, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(-1, -3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(521, 977);
+            this.pictureBox1.Size = new System.Drawing.Size(534, 977);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click_1);
@@ -57,11 +57,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(510, 974);
+            this.ClientSize = new System.Drawing.Size(524, 974);
             this.Controls.Add(this.btn_moveToNextPage);
             this.Controls.Add(this.pictureBox1);
-            this.MaximumSize = new System.Drawing.Size(526, 1013);
-            this.MinimumSize = new System.Drawing.Size(526, 1013);
+            this.MaximumSize = new System.Drawing.Size(540, 1013);
+            this.MinimumSize = new System.Drawing.Size(540, 1013);
             this.Name = "Form1";
             this.Text = "Remozo Car Control";
             this.Load += new System.EventHandler(this.Form1_Load);

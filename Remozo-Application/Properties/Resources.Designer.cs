@@ -63,6 +63,16 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Account_Creation_Blank {
+            get {
+                object obj = ResourceManager.GetObject("App - Account Creation Blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Loading_Screen {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen", resourceCulture);

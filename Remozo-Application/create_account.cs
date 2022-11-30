@@ -16,5 +16,10 @@ namespace Remozo_Application
         {
             InitializeComponent();
         }
+
+        private void create_account_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
