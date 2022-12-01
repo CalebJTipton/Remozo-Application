@@ -10,24 +10,14 @@ using System.Windows.Forms;
 
 namespace Remozo_Application
 {
-    public partial class create_account : Form
+    public partial class dashboard : Form
     {
-        public create_account()
+        public dashboard()
         {
             InitializeComponent();
         }
 
-        private void create_account_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void create_account_Load_1(object sender, EventArgs e)
+        private void pictureBox1_Click(object sender, EventArgs e)
         {
 
         }

@@ -42,7 +42,7 @@
             this.pictureBox1.Image = global::Remozo_Application.Properties.Resources.App___Account_Creation_Blank;
             this.pictureBox1.Location = new System.Drawing.Point(0, 1);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(540, 971);
+            this.pictureBox1.Size = new System.Drawing.Size(523, 1141);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -89,17 +89,18 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 974);
+            this.ClientSize = new System.Drawing.Size(522, 1102);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.txt_confirmPassword);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_phoneNumber);
             this.Controls.Add(this.txt_login);
             this.Controls.Add(this.pictureBox1);
-            this.MaximumSize = new System.Drawing.Size(540, 1013);
-            this.MinimumSize = new System.Drawing.Size(540, 1013);
+            this.MaximumSize = new System.Drawing.Size(538, 1141);
+            this.MinimumSize = new System.Drawing.Size(538, 1141);
             this.Name = "create_account";
             this.Text = "Remozo - Create Account";
+            this.Load += new System.EventHandler(this.create_account_Load_1);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
