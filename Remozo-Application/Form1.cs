@@ -24,9 +24,9 @@ namespace Remozo_Application
 
         private void btn_moveToNextPage_Click(object sender, EventArgs e)
         {
-            create_account create_Account = new create_account();
+            userAuthSelect userAuthSelect = new userAuthSelect();
 
-            create_Account.Show();
+            userAuthSelect.Show();
 
             Hide();
         }
