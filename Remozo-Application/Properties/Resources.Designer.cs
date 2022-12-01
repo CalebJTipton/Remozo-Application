@@ -83,6 +83,16 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Add_Vehicle_with_back {
+            get {
+                object obj = ResourceManager.GetObject("App - Add Vehicle with back", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Loading_Screen {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen", resourceCulture);
