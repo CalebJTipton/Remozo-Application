@@ -5,6 +5,8 @@ namespace Remozo_Application
         public Form1()
         {
             InitializeComponent();
+
+            nextPage();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -24,9 +26,16 @@ namespace Remozo_Application
 
         private void btn_moveToNextPage_Click(object sender, EventArgs e)
         {
-            create_account create_Account = new create_account();
+            
+        }
 
-            create_Account.Show();
+        public async void nextPage()
+        {
+            await Task.Delay(TimeSpan.FromSeconds(3));
+
+            userAuthSelect userAuthSelect = new userAuthSelect();
+
+            userAuthSelect.Show();
 
             Hide();
         }

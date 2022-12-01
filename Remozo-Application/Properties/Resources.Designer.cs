@@ -73,6 +73,46 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Dashboard {
+            get {
+                object obj = ResourceManager.GetObject("App - Dashboard", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Dashboard1 {
+            get {
+                object obj = ResourceManager.GetObject("App - Dashboard1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Dashboard2 {
+            get {
+                object obj = ResourceManager.GetObject("App - Dashboard2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Dashboard3 {
+            get {
+                object obj = ResourceManager.GetObject("App - Dashboard3", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Loading_Screen {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen", resourceCulture);
@@ -86,6 +126,26 @@ namespace Remozo_Application.Properties {
         internal static System.Drawing.Bitmap App___Loading_Screen1 {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Login_or_Create_Account {
+            get {
+                object obj = ResourceManager.GetObject("App - Login or Create Account", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Maintain {
+            get {
+                object obj = ResourceManager.GetObject("App - Maintain", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
