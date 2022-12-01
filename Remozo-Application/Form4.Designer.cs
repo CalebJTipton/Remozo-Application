@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(addVehicleWithBack));
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.txt_make = new System.Windows.Forms.TextBox();
             this.txt_model = new System.Windows.Forms.TextBox();
@@ -47,52 +48,53 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Remozo_Application.Properties.Resources.App___Add_Vehicle_with_back;
+            this.pictureBox1.ErrorImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.ErrorImage")));
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(-1, 2);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(530, 975);
+            this.pictureBox1.Size = new System.Drawing.Size(523, 1141);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // txt_make
             // 
-            this.txt_make.Location = new System.Drawing.Point(73, 286);
+            this.txt_make.Location = new System.Drawing.Point(40, 325);
             this.txt_make.Name = "txt_make";
-            this.txt_make.Size = new System.Drawing.Size(356, 23);
+            this.txt_make.Size = new System.Drawing.Size(389, 23);
             this.txt_make.TabIndex = 1;
             // 
             // txt_model
             // 
-            this.txt_model.Location = new System.Drawing.Point(73, 354);
+            this.txt_model.Location = new System.Drawing.Point(40, 403);
             this.txt_model.Name = "txt_model";
-            this.txt_model.Size = new System.Drawing.Size(356, 23);
+            this.txt_model.Size = new System.Drawing.Size(389, 23);
             this.txt_model.TabIndex = 2;
             // 
             // txt_vin
             // 
-            this.txt_vin.Location = new System.Drawing.Point(73, 425);
+            this.txt_vin.Location = new System.Drawing.Point(40, 483);
             this.txt_vin.Name = "txt_vin";
-            this.txt_vin.Size = new System.Drawing.Size(356, 23);
+            this.txt_vin.Size = new System.Drawing.Size(389, 23);
             this.txt_vin.TabIndex = 3;
             // 
             // txt_deviceKey
             // 
-            this.txt_deviceKey.Location = new System.Drawing.Point(73, 497);
+            this.txt_deviceKey.Location = new System.Drawing.Point(40, 564);
             this.txt_deviceKey.Name = "txt_deviceKey";
-            this.txt_deviceKey.Size = new System.Drawing.Size(356, 23);
+            this.txt_deviceKey.Size = new System.Drawing.Size(389, 23);
             this.txt_deviceKey.TabIndex = 4;
             // 
             // txt_drivers
             // 
-            this.txt_drivers.Location = new System.Drawing.Point(73, 574);
+            this.txt_drivers.Location = new System.Drawing.Point(40, 650);
             this.txt_drivers.Name = "txt_drivers";
-            this.txt_drivers.Size = new System.Drawing.Size(356, 23);
+            this.txt_drivers.Size = new System.Drawing.Size(389, 23);
             this.txt_drivers.TabIndex = 5;
             // 
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Remozo_Application.Properties.Resources.toggleOff;
-            this.pictureBox2.Location = new System.Drawing.Point(422, 677);
+            this.pictureBox2.Location = new System.Drawing.Point(414, 769);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(81, 53);
             this.pictureBox2.TabIndex = 6;
@@ -101,7 +103,7 @@
             // pictureBox3
             // 
             this.pictureBox3.Image = global::Remozo_Application.Properties.Resources.toggleOff;
-            this.pictureBox3.Location = new System.Drawing.Point(422, 742);
+            this.pictureBox3.Location = new System.Drawing.Point(414, 841);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(81, 53);
             this.pictureBox3.TabIndex = 7;
@@ -110,7 +112,7 @@
             // pictureBox4
             // 
             this.pictureBox4.Image = global::Remozo_Application.Properties.Resources.toggleOff;
-            this.pictureBox4.Location = new System.Drawing.Point(422, 810);
+            this.pictureBox4.Location = new System.Drawing.Point(414, 916);
             this.pictureBox4.Name = "pictureBox4";
             this.pictureBox4.Size = new System.Drawing.Size(81, 53);
             this.pictureBox4.TabIndex = 8;
@@ -119,27 +121,27 @@
             // btn_back
             // 
             this.btn_back.BackColor = System.Drawing.SystemColors.Control;
-            this.btn_back.Location = new System.Drawing.Point(40, 133);
+            this.btn_back.Location = new System.Drawing.Point(-1, 155);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(101, 39);
+            this.btn_back.Size = new System.Drawing.Size(113, 39);
             this.btn_back.TabIndex = 9;
             this.btn_back.Text = "button1";
             this.btn_back.UseVisualStyleBackColor = false;
             // 
             // btn_addVehicle
             // 
-            this.btn_addVehicle.Location = new System.Drawing.Point(114, 911);
+            this.btn_addVehicle.Location = new System.Drawing.Point(86, 1033);
             this.btn_addVehicle.Name = "btn_addVehicle";
-            this.btn_addVehicle.Size = new System.Drawing.Size(297, 51);
+            this.btn_addVehicle.Size = new System.Drawing.Size(327, 57);
             this.btn_addVehicle.TabIndex = 10;
-            this.btn_addVehicle.Text = "button1";
+            this.btn_addVehicle.Text = "Add Vehicle";
             this.btn_addVehicle.UseVisualStyleBackColor = true;
             // 
             // addVehicleWithBack
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(524, 974);
+            this.ClientSize = new System.Drawing.Size(507, 1102);
             this.Controls.Add(this.btn_addVehicle);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.pictureBox4);
@@ -151,8 +153,8 @@
             this.Controls.Add(this.txt_model);
             this.Controls.Add(this.txt_make);
             this.Controls.Add(this.pictureBox1);
-            this.MaximumSize = new System.Drawing.Size(540, 1013);
-            this.MinimumSize = new System.Drawing.Size(540, 1013);
+            this.MaximumSize = new System.Drawing.Size(523, 1141);
+            this.MinimumSize = new System.Drawing.Size(523, 1141);
             this.Name = "addVehicleWithBack";
             this.Text = "Add Vehicle";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
