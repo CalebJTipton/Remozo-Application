@@ -73,6 +73,16 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Add_Vehicle_blank {
+            get {
+                object obj = ResourceManager.GetObject("App - Add Vehicle blank", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Loading_Screen {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen", resourceCulture);
@@ -86,6 +96,16 @@ namespace Remozo_Application.Properties {
         internal static System.Drawing.Bitmap App___Loading_Screen1 {
             get {
                 object obj = ResourceManager.GetObject("App - Loading Screen1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap toggleOff {
+            get {
+                object obj = ResourceManager.GetObject("toggleOff", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
