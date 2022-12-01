@@ -10,30 +10,25 @@ using System.Windows.Forms;
 
 namespace Remozo_Application
 {
-    public partial class dashboard : Form
+    public partial class maintain : Form
     {
-        public dashboard()
+        public maintain()
         {
             InitializeComponent();
         }
 
-        private void pictureBox1_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void btn_locateExpand_Click(object sender, EventArgs e)
+        private void btn_back_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void btn_maintainExpand_Click(object sender, EventArgs e)
-        {
-            maintain maintain = new maintain();
-
-            maintain.Show();
+            dashboard dashboard = new dashboard();
+            dashboard.Show();
 
             Close();
+
         }
     }
 }

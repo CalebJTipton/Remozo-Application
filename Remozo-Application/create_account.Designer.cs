@@ -34,6 +34,7 @@
             this.txt_password = new System.Windows.Forms.TextBox();
             this.txt_confirmPassword = new System.Windows.Forms.TextBox();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btn_createAccount = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -85,11 +86,26 @@
             this.comboBox1.Size = new System.Drawing.Size(359, 23);
             this.comboBox1.TabIndex = 5;
             // 
+            // btn_createAccount
+            // 
+            this.btn_createAccount.BackColor = System.Drawing.Color.Red;
+            this.btn_createAccount.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_createAccount.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_createAccount.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.btn_createAccount.Location = new System.Drawing.Point(92, 619);
+            this.btn_createAccount.Name = "btn_createAccount";
+            this.btn_createAccount.Size = new System.Drawing.Size(346, 84);
+            this.btn_createAccount.TabIndex = 6;
+            this.btn_createAccount.Text = "Create Account";
+            this.btn_createAccount.UseVisualStyleBackColor = false;
+            this.btn_createAccount.Click += new System.EventHandler(this.btn_createAccount_Click);
+            // 
             // create_account
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
+            this.Controls.Add(this.btn_createAccount);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.txt_confirmPassword);
             this.Controls.Add(this.txt_password);
@@ -115,5 +131,6 @@
         private TextBox txt_password;
         private TextBox txt_confirmPassword;
         private ComboBox comboBox1;
+        private Button btn_createAccount;
     }
 }

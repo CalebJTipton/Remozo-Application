@@ -31,5 +31,14 @@ namespace Remozo_Application
         {
 
         }
+
+        private void btn_createAccount_Click(object sender, EventArgs e)
+        {
+            dashboard dashboard = new dashboard();
+
+            dashboard.Show();
+
+            Hide();
+        }
     }
 }
