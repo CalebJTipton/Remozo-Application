@@ -34,11 +34,24 @@ namespace Remozo_Application
 
         private void btn_createAccount_Click(object sender, EventArgs e)
         {
-            dashboard dashboard = new dashboard();
-
-            dashboard.Show();
-
-            Hide();
+            if (txt_password.Text != "" && txt_confirmPassword.Text != "")
+            {
+                if (txt_password.Text == txt_confirmPassword.Text)
+                {
+                    dashboard dashboard = new dashboard();
+                    dashboard.Show();
+                    Hide();
+                }
+                else
+                {
+                    MessageBox.Show("Whoops! Passwords do not match.");
+                }
+            }
+            else
+            {
+                MessageBox.Show("Whoops! It appears you did not enter a password/confirm password");
+            }
+           
         }
     }
 }
