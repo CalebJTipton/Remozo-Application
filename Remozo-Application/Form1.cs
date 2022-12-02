@@ -5,7 +5,7 @@ namespace Remozo_Application
         public Form1()
         {
             InitializeComponent();
-
+            this.timer1.Start();
             nextPage();
         }
 
@@ -31,6 +31,7 @@ namespace Remozo_Application
 
         public async void nextPage()
         {
+            
             await Task.Delay(TimeSpan.FromSeconds(3));
 
             userAuthSelect userAuthSelect = new userAuthSelect();
@@ -38,6 +39,18 @@ namespace Remozo_Application
             userAuthSelect.Show();
 
             Hide();
+        }
+
+        private void progressBar1_Click(object sender, EventArgs e)
+        {
+           
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+           
+            this.progressBar1.Increment(5);
+           
         }
     }
 }

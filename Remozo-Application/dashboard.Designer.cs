@@ -49,40 +49,47 @@
             // 
             // btn_locateExpand
             // 
+            this.btn_locateExpand.BackColor = System.Drawing.Color.White;
             this.btn_locateExpand.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.btn_locateExpand.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_locateExpand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_locateExpand.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_locateExpand.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_locateExpand.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btn_locateExpand.Location = new System.Drawing.Point(366, 374);
             this.btn_locateExpand.Name = "btn_locateExpand";
             this.btn_locateExpand.Size = new System.Drawing.Size(102, 35);
             this.btn_locateExpand.TabIndex = 1;
             this.btn_locateExpand.Text = "expand";
-            this.btn_locateExpand.UseVisualStyleBackColor = true;
+            this.btn_locateExpand.UseVisualStyleBackColor = false;
             this.btn_locateExpand.Click += new System.EventHandler(this.btn_locateExpand_Click);
             // 
             // btn_controlExpand
             // 
+            this.btn_controlExpand.BackColor = System.Drawing.Color.White;
             this.btn_controlExpand.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.btn_controlExpand.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_controlExpand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_controlExpand.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_controlExpand.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.btn_controlExpand.Location = new System.Drawing.Point(366, 639);
             this.btn_controlExpand.Name = "btn_controlExpand";
             this.btn_controlExpand.Size = new System.Drawing.Size(102, 35);
             this.btn_controlExpand.TabIndex = 2;
             this.btn_controlExpand.Text = "expand";
-            this.btn_controlExpand.UseVisualStyleBackColor = true;
+            this.btn_controlExpand.UseVisualStyleBackColor = false;
             // 
             // btn_maintainExpand
             // 
+            this.btn_maintainExpand.BackColor = System.Drawing.Color.White;
             this.btn_maintainExpand.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.btn_maintainExpand.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_maintainExpand.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_maintainExpand.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.btn_maintainExpand.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.btn_maintainExpand.Location = new System.Drawing.Point(366, 916);
             this.btn_maintainExpand.Name = "btn_maintainExpand";
             this.btn_maintainExpand.Size = new System.Drawing.Size(102, 35);
             this.btn_maintainExpand.TabIndex = 3;
             this.btn_maintainExpand.Text = "expand";
-            this.btn_maintainExpand.UseVisualStyleBackColor = true;
+            this.btn_maintainExpand.UseVisualStyleBackColor = false;
             this.btn_maintainExpand.Click += new System.EventHandler(this.btn_maintainExpand_Click);
             // 
             // dashboard
