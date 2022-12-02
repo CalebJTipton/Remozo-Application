@@ -35,5 +35,10 @@ namespace Remozo_Application
 
             Close();
         }
+
+        private void btn_settings_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
