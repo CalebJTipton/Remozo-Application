@@ -1,6 +1,6 @@
 ﻿namespace Remozo_Application
 {
-    partial class addVehicleNoBack
+    partial class locate
     {
         /// <summary>
         /// Required designer variable.
@@ -30,15 +30,15 @@
         {
             this.SuspendLayout();
             // 
-            // addVehicleNoBack
+            // locate
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
             this.MaximumSize = new System.Drawing.Size(538, 1141);
             this.MinimumSize = new System.Drawing.Size(538, 1141);
-            this.Name = "addVehicleNoBack";
-            this.Text = "Remozo - Add Vehicle";
+            this.Name = "locate";
+            this.Text = "locate";
             this.ResumeLayout(false);
 
         }
