@@ -25,5 +25,14 @@ namespace Remozo_Application
 
             Close();
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            login login = new login();
+
+            login.Show();
+
+            Close();
+        }
     }
 }
