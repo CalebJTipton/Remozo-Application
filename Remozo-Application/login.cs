@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Remozo_Application
 {
-    public partial class Form4 : Form
+    public partial class login : Form
     {
-        public Form4()
+        public login()
         {
             InitializeComponent();
         }

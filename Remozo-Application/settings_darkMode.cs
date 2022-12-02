@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Remozo_Application
 {
-    public partial class Form3 : Form
+    public partial class settings_darkMode : Form
     {
-        public Form3()
+        public settings_darkMode()
         {
             InitializeComponent();
         }

@@ -1,6 +1,6 @@
 ﻿namespace Remozo_Application
 {
-    partial class Form3
+    partial class settings_darkMode
     {
         /// <summary>
         /// Required designer variable.

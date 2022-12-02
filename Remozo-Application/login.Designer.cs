@@ -1,6 +1,6 @@
 ﻿namespace Remozo_Application
 {
-    partial class Form4
+    partial class login
     {
         /// <summary>
         /// Required designer variable.
