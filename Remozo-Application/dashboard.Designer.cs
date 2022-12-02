@@ -32,6 +32,7 @@
             this.btn_locateExpand = new System.Windows.Forms.Button();
             this.btn_controlExpand = new System.Windows.Forms.Button();
             this.btn_maintainExpand = new System.Windows.Forms.Button();
+            this.btn_settings = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,11 +93,26 @@
             this.btn_maintainExpand.UseVisualStyleBackColor = false;
             this.btn_maintainExpand.Click += new System.EventHandler(this.btn_maintainExpand_Click);
             // 
+            // btn_settings
+            // 
+            this.btn_settings.BackColor = System.Drawing.Color.White;
+            this.btn_settings.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_settings.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_settings.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_settings.Location = new System.Drawing.Point(402, 149);
+            this.btn_settings.Name = "btn_settings";
+            this.btn_settings.Size = new System.Drawing.Size(122, 40);
+            this.btn_settings.TabIndex = 4;
+            this.btn_settings.Text = "settings";
+            this.btn_settings.UseVisualStyleBackColor = false;
+            this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 1141);
+            this.Controls.Add(this.btn_settings);
             this.Controls.Add(this.btn_maintainExpand);
             this.Controls.Add(this.btn_controlExpand);
             this.Controls.Add(this.btn_locateExpand);
@@ -116,5 +132,6 @@
         private Button btn_locateExpand;
         private Button btn_controlExpand;
         private Button btn_maintainExpand;
+        private Button btn_settings;
     }
 }
