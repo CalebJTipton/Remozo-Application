@@ -113,6 +113,16 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Dashboard__No_Control_ {
+            get {
+                object obj = ResourceManager.GetObject("App - Dashboard (No Control)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Dashboard1 {
             get {
                 object obj = ResourceManager.GetObject("App - Dashboard1", resourceCulture);
