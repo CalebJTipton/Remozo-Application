@@ -98,6 +98,7 @@
             this.btn_checkUpdates.TabIndex = 2;
             this.btn_checkUpdates.Text = "Check for Updates";
             this.btn_checkUpdates.UseVisualStyleBackColor = false;
+            this.btn_checkUpdates.Click += new System.EventHandler(this.btn_checkUpdates_Click);
             // 
             // txt_geoFence
             // 
@@ -304,6 +305,7 @@
             this.rbtn_darkMode_disabled.TabIndex = 1;
             this.rbtn_darkMode_disabled.Text = "Disabled";
             this.rbtn_darkMode_disabled.UseVisualStyleBackColor = true;
+            this.rbtn_darkMode_disabled.CheckedChanged += new System.EventHandler(this.rbtn_darkMode_disabled_CheckedChanged);
             // 
             // rbtn_darkMode_enabled
             // 

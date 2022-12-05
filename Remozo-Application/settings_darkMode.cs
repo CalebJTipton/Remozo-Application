@@ -28,5 +28,18 @@ namespace Remozo_Application
         {
 
         }
+
+        private void rbtn_darkMode_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+            settings settings = new settings();
+            settings.Show();
+            Close();
+        }
+
+        private void btn_checkUpdates_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Version 1.01 is up to date. \n" +
+                      "No new updates available.");
+        }
     }
 }
