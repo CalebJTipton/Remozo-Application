@@ -33,6 +33,8 @@
             this.btn_controlExpand = new System.Windows.Forms.Button();
             this.btn_maintainExpand = new System.Windows.Forms.Button();
             this.btn_settings = new System.Windows.Forms.Button();
+            this.btn_changeVehicle = new System.Windows.Forms.Button();
+            this.btn_addVehicle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -77,6 +79,7 @@
             this.btn_controlExpand.TabIndex = 2;
             this.btn_controlExpand.Text = "expand";
             this.btn_controlExpand.UseVisualStyleBackColor = false;
+            this.btn_controlExpand.Click += new System.EventHandler(this.btn_controlExpand_Click);
             // 
             // btn_maintainExpand
             // 
@@ -107,11 +110,41 @@
             this.btn_settings.UseVisualStyleBackColor = false;
             this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
             // 
+            // btn_changeVehicle
+            // 
+            this.btn_changeVehicle.BackColor = System.Drawing.Color.White;
+            this.btn_changeVehicle.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_changeVehicle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_changeVehicle.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_changeVehicle.Location = new System.Drawing.Point(178, 149);
+            this.btn_changeVehicle.Name = "btn_changeVehicle";
+            this.btn_changeVehicle.Size = new System.Drawing.Size(198, 40);
+            this.btn_changeVehicle.TabIndex = 5;
+            this.btn_changeVehicle.Text = "change vehicle";
+            this.btn_changeVehicle.UseVisualStyleBackColor = false;
+            this.btn_changeVehicle.Click += new System.EventHandler(this.btn_changeVehicle_Click);
+            // 
+            // btn_addVehicle
+            // 
+            this.btn_addVehicle.BackColor = System.Drawing.Color.White;
+            this.btn_addVehicle.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.btn_addVehicle.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_addVehicle.Font = new System.Drawing.Font("Segoe UI", 18F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_addVehicle.Location = new System.Drawing.Point(1, 149);
+            this.btn_addVehicle.Name = "btn_addVehicle";
+            this.btn_addVehicle.Size = new System.Drawing.Size(171, 40);
+            this.btn_addVehicle.TabIndex = 6;
+            this.btn_addVehicle.Text = "add vehicle";
+            this.btn_addVehicle.UseVisualStyleBackColor = false;
+            this.btn_addVehicle.Click += new System.EventHandler(this.btn_addVehicle_Click);
+            // 
             // dashboard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(524, 1141);
+            this.Controls.Add(this.btn_addVehicle);
+            this.Controls.Add(this.btn_changeVehicle);
             this.Controls.Add(this.btn_settings);
             this.Controls.Add(this.btn_maintainExpand);
             this.Controls.Add(this.btn_controlExpand);
@@ -133,5 +166,7 @@
         private Button btn_controlExpand;
         private Button btn_maintainExpand;
         private Button btn_settings;
+        private Button btn_changeVehicle;
+        private Button btn_addVehicle;
     }
 }

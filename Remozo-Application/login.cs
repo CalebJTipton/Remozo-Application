@@ -16,5 +16,28 @@ namespace Remozo_Application
         {
             InitializeComponent();
         }
+
+        private void btn_login_Click(object sender, EventArgs e)
+        {
+            if (txt_password.Text == "password")
+            {
+                dashboard dashboard = new dashboard();
+
+                dashboard.Show();
+
+                Close();
+
+            }
+
+            else
+            {
+                MessageBox.Show("Whoops! Wrong password, try again!");
+            }
+        }
+
+        private void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

@@ -26,7 +26,6 @@ namespace Remozo_Application
         {
             dashboard dashboard = new dashboard();
             dashboard.Show();
-
             Close();
 
         }
