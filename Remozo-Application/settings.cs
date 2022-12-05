@@ -42,6 +42,78 @@ namespace Remozo_Application
                             "No new updates available.");
         }
 
-        
+        private void darkModeGroup_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_darkMode_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+            settings_darkMode settings_darkMode = new settings_darkMode();
+
+            settings_darkMode.Show();
+
+            Close();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_darkMode_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_maintenance_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_maintenance_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_geofence_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_geofence_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_contrast_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_contrast_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_colorblind_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_colorblind_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_vibration_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void rbtn_vibration_disabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
