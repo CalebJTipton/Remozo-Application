@@ -46,12 +46,22 @@
             this.window5Group = new System.Windows.Forms.GroupBox();
             this.rbtn_window5_closed = new System.Windows.Forms.RadioButton();
             this.rbtn_window5_open = new System.Windows.Forms.RadioButton();
+            this.pb_window3_up = new System.Windows.Forms.PictureBox();
+            this.pb_window1_up = new System.Windows.Forms.PictureBox();
+            this.pb_window2_up = new System.Windows.Forms.PictureBox();
+            this.pb_window4_up = new System.Windows.Forms.PictureBox();
+            this.pb_window5_up = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.window1Group.SuspendLayout();
             this.window2Group.SuspendLayout();
             this.window3Group.SuspendLayout();
             this.window4Group.SuspendLayout();
             this.window5Group.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window3_up)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window1_up)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window2_up)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window4_up)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window5_up)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -115,6 +125,7 @@
             this.rbtn_window1_closed.Text = "Closed";
             this.rbtn_window1_closed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window1_closed.UseVisualStyleBackColor = true;
+            this.rbtn_window1_closed.CheckedChanged += new System.EventHandler(this.rbtn_window1_closed_CheckedChanged);
             // 
             // rbtn_window1_open
             // 
@@ -126,6 +137,7 @@
             this.rbtn_window1_open.Text = "Open";
             this.rbtn_window1_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window1_open.UseVisualStyleBackColor = true;
+            this.rbtn_window1_open.CheckedChanged += new System.EventHandler(this.rbtn_window1_open_CheckedChanged);
             // 
             // window2Group
             // 
@@ -150,6 +162,7 @@
             this.rbtn_window2_closed.Text = "Closed";
             this.rbtn_window2_closed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window2_closed.UseVisualStyleBackColor = true;
+            this.rbtn_window2_closed.CheckedChanged += new System.EventHandler(this.rbtn_window2_closed_CheckedChanged);
             // 
             // rbtn_window2_open
             // 
@@ -161,6 +174,7 @@
             this.rbtn_window2_open.Text = "Open";
             this.rbtn_window2_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window2_open.UseVisualStyleBackColor = true;
+            this.rbtn_window2_open.CheckedChanged += new System.EventHandler(this.rbtn_window2_open_CheckedChanged);
             // 
             // window3Group
             // 
@@ -185,6 +199,7 @@
             this.rbtn_window3_closed.Text = "Closed";
             this.rbtn_window3_closed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window3_closed.UseVisualStyleBackColor = true;
+            this.rbtn_window3_closed.CheckedChanged += new System.EventHandler(this.rbtn_window3_closed_CheckedChanged);
             // 
             // rbtn_window3_open
             // 
@@ -196,6 +211,7 @@
             this.rbtn_window3_open.Text = "Open";
             this.rbtn_window3_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window3_open.UseVisualStyleBackColor = true;
+            this.rbtn_window3_open.CheckedChanged += new System.EventHandler(this.rbtn_window3_open_CheckedChanged);
             // 
             // window4Group
             // 
@@ -220,6 +236,7 @@
             this.rbtn_window4_closed.Text = "Closed";
             this.rbtn_window4_closed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window4_closed.UseVisualStyleBackColor = true;
+            this.rbtn_window4_closed.CheckedChanged += new System.EventHandler(this.rbtn_window4_closed_CheckedChanged);
             // 
             // rbtn_window4_open
             // 
@@ -231,6 +248,7 @@
             this.rbtn_window4_open.Text = "Open";
             this.rbtn_window4_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window4_open.UseVisualStyleBackColor = true;
+            this.rbtn_window4_open.CheckedChanged += new System.EventHandler(this.rbtn_window4_open_CheckedChanged);
             // 
             // window5Group
             // 
@@ -255,6 +273,7 @@
             this.rbtn_window5_closed.Text = "Closed";
             this.rbtn_window5_closed.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window5_closed.UseVisualStyleBackColor = true;
+            this.rbtn_window5_closed.CheckedChanged += new System.EventHandler(this.rbtn_window5_closed_CheckedChanged);
             // 
             // rbtn_window5_open
             // 
@@ -266,12 +285,63 @@
             this.rbtn_window5_open.Text = "Open";
             this.rbtn_window5_open.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.rbtn_window5_open.UseVisualStyleBackColor = true;
+            this.rbtn_window5_open.CheckedChanged += new System.EventHandler(this.rbtn_window5_open_CheckedChanged);
+            // 
+            // pb_window3_up
+            // 
+            this.pb_window3_up.Location = new System.Drawing.Point(380, 763);
+            this.pb_window3_up.Name = "pb_window3_up";
+            this.pb_window3_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window3_up.TabIndex = 15;
+            this.pb_window3_up.TabStop = false;
+            this.pb_window3_up.Click += new System.EventHandler(this.pb_window3_Click);
+            // 
+            // pb_window1_up
+            // 
+            this.pb_window1_up.Location = new System.Drawing.Point(102, 763);
+            this.pb_window1_up.Name = "pb_window1_up";
+            this.pb_window1_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window1_up.TabIndex = 16;
+            this.pb_window1_up.TabStop = false;
+            this.pb_window1_up.Click += new System.EventHandler(this.pb_window1_Click);
+            // 
+            // pb_window2_up
+            // 
+            this.pb_window2_up.Location = new System.Drawing.Point(102, 864);
+            this.pb_window2_up.Name = "pb_window2_up";
+            this.pb_window2_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window2_up.TabIndex = 17;
+            this.pb_window2_up.TabStop = false;
+            this.pb_window2_up.Click += new System.EventHandler(this.pb_window2_Click);
+            // 
+            // pb_window4_up
+            // 
+            this.pb_window4_up.Location = new System.Drawing.Point(380, 864);
+            this.pb_window4_up.Name = "pb_window4_up";
+            this.pb_window4_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window4_up.TabIndex = 18;
+            this.pb_window4_up.TabStop = false;
+            this.pb_window4_up.Click += new System.EventHandler(this.pb_window4_Click);
+            // 
+            // pb_window5_up
+            // 
+            this.pb_window5_up.Location = new System.Drawing.Point(232, 787);
+            this.pb_window5_up.Name = "pb_window5_up";
+            this.pb_window5_up.Size = new System.Drawing.Size(56, 50);
+            this.pb_window5_up.TabIndex = 19;
+            this.pb_window5_up.TabStop = false;
+            this.pb_window5_up.Click += new System.EventHandler(this.pb_window5_Click);
             // 
             // control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
+            this.Controls.Add(this.pb_window5_up);
+            this.Controls.Add(this.pb_window4_up);
+            this.Controls.Add(this.pb_window2_up);
+            this.Controls.Add(this.pb_window1_up);
+            this.Controls.Add(this.pb_window3_up);
             this.Controls.Add(this.window5Group);
             this.Controls.Add(this.window4Group);
             this.Controls.Add(this.window3Group);
@@ -295,6 +365,11 @@
             this.window4Group.PerformLayout();
             this.window5Group.ResumeLayout(false);
             this.window5Group.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window3_up)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window1_up)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window2_up)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window4_up)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window5_up)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -319,5 +394,10 @@
         private GroupBox window5Group;
         private RadioButton rbtn_window5_closed;
         private RadioButton rbtn_window5_open;
+        private PictureBox pb_window3_up;
+        private PictureBox pb_window1_up;
+        private PictureBox pb_window2_up;
+        private PictureBox pb_window4_up;
+        private PictureBox pb_window5_up;
     }
 }
