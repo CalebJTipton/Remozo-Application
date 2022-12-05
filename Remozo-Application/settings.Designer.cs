@@ -51,6 +51,7 @@
             this.txt_geoFence.Name = "txt_geoFence";
             this.txt_geoFence.Size = new System.Drawing.Size(396, 23);
             this.txt_geoFence.TabIndex = 1;
+            this.txt_geoFence.TextChanged += new System.EventHandler(this.txt_geoFence_TextChanged);
             // 
             // textBox1
             // 
@@ -86,6 +87,7 @@
             this.btn_checkUpdates.TabIndex = 8;
             this.btn_checkUpdates.Text = "Check for Updates";
             this.btn_checkUpdates.UseVisualStyleBackColor = false;
+            this.btn_checkUpdates.Click += new System.EventHandler(this.btn_checkUpdates_Click);
             // 
             // settings
             // 

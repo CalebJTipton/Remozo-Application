@@ -23,5 +23,15 @@ namespace Remozo_Application
             dashboard.Show();
             Close();
         }
+
+        private void chk_darkModeEnabled_CheckedChanged(object sender, EventArgs e)
+        {
+            chk_darkModeEnabled.Checked = true;
+        }
+
+        private void chk_maintenanceAlertDisabled_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

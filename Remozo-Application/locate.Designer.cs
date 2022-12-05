@@ -57,6 +57,7 @@
             this.btn_diableVehicle.TabIndex = 5;
             this.btn_diableVehicle.Text = "Disable Vehicle";
             this.btn_diableVehicle.UseVisualStyleBackColor = false;
+            this.btn_diableVehicle.Click += new System.EventHandler(this.btn_diableVehicle_Click);
             // 
             // btn_back
             // 
