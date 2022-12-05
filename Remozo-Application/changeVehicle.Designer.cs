@@ -55,6 +55,7 @@
             this.btn_back.TabIndex = 2;
             this.btn_back.Text = "back";
             this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // btn_addVehicle
             // 

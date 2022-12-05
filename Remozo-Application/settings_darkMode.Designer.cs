@@ -52,12 +52,13 @@
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_back.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.btn_back.ForeColor = System.Drawing.Color.White;
-            this.btn_back.Location = new System.Drawing.Point(46, 158);
+            this.btn_back.Location = new System.Drawing.Point(44, 157);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(75, 32);
+            this.btn_back.Size = new System.Drawing.Size(75, 35);
             this.btn_back.TabIndex = 1;
-            this.btn_back.Text = "Back";
+            this.btn_back.Text = "back";
             this.btn_back.UseVisualStyleBackColor = false;
+            this.btn_back.Click += new System.EventHandler(this.btn_back_Click);
             // 
             // btn_checkUpdates
             // 
@@ -87,7 +88,7 @@
             this.txt_userList.Size = new System.Drawing.Size(394, 23);
             this.txt_userList.TabIndex = 4;
             // 
-            // Form3
+            // settings_darkMode
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -99,7 +100,7 @@
             this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(523, 1141);
             this.MinimumSize = new System.Drawing.Size(523, 1141);
-            this.Name = "Form3";
+            this.Name = "settings_darkMode";
             this.Text = "Form3";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

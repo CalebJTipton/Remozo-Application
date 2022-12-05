@@ -24,21 +24,45 @@ namespace Remozo_Application
 
         private void btn_locateExpand_Click(object sender, EventArgs e)
         {
+            locate locate = new locate();
+            locate.Show();
+            Hide();
 
         }
 
         private void btn_maintainExpand_Click(object sender, EventArgs e)
         {
             maintain maintain = new maintain();
-
             maintain.Show();
-
             Close();
         }
 
         private void btn_settings_Click(object sender, EventArgs e)
         {
+            settings settings = new settings();
+            settings.Show();
+            Close();
+        }
 
+        private void btn_controlExpand_Click(object sender, EventArgs e)
+        {
+            control control = new control();
+            control.Show();
+            Close();
+        }
+
+        private void btn_changeVehicle_Click(object sender, EventArgs e)
+        {
+            changeVehicle changeVehicle = new changeVehicle();
+            changeVehicle.Show();
+            Close();
+        }
+
+        private void btn_addVehicle_Click(object sender, EventArgs e)
+        {
+            addVehicle addVehicle = new addVehicle();
+            addVehicle.Show();
+            Close();
         }
     }
 }

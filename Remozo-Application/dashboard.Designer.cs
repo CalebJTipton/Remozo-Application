@@ -79,6 +79,7 @@
             this.btn_controlExpand.TabIndex = 2;
             this.btn_controlExpand.Text = "expand";
             this.btn_controlExpand.UseVisualStyleBackColor = false;
+            this.btn_controlExpand.Click += new System.EventHandler(this.btn_controlExpand_Click);
             // 
             // btn_maintainExpand
             // 
@@ -121,6 +122,7 @@
             this.btn_changeVehicle.TabIndex = 5;
             this.btn_changeVehicle.Text = "change vehicle";
             this.btn_changeVehicle.UseVisualStyleBackColor = false;
+            this.btn_changeVehicle.Click += new System.EventHandler(this.btn_changeVehicle_Click);
             // 
             // btn_addVehicle
             // 
@@ -134,6 +136,7 @@
             this.btn_addVehicle.TabIndex = 6;
             this.btn_addVehicle.Text = "add vehicle";
             this.btn_addVehicle.UseVisualStyleBackColor = false;
+            this.btn_addVehicle.Click += new System.EventHandler(this.btn_addVehicle_Click);
             // 
             // dashboard
             // 
