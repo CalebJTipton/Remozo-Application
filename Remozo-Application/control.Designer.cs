@@ -51,6 +51,23 @@
             this.pb_window2_up = new System.Windows.Forms.PictureBox();
             this.pb_window4_up = new System.Windows.Forms.PictureBox();
             this.pb_window5_up = new System.Windows.Forms.PictureBox();
+            this.pb_window1_down = new System.Windows.Forms.PictureBox();
+            this.pb_window2_down = new System.Windows.Forms.PictureBox();
+            this.pb_window3_down = new System.Windows.Forms.PictureBox();
+            this.pb_window4_down = new System.Windows.Forms.PictureBox();
+            this.pb_window5_down = new System.Windows.Forms.PictureBox();
+            this.pb_unlocked = new System.Windows.Forms.PictureBox();
+            this.pb_disarmed = new System.Windows.Forms.PictureBox();
+            this.pb_started = new System.Windows.Forms.PictureBox();
+            this.pb_locked = new System.Windows.Forms.PictureBox();
+            this.pb_armed = new System.Windows.Forms.PictureBox();
+            this.pb_off = new System.Windows.Forms.PictureBox();
+            this.lbl_locked = new System.Windows.Forms.Label();
+            this.lbl_armed = new System.Windows.Forms.Label();
+            this.lbl_off = new System.Windows.Forms.Label();
+            this.lbl_unlocked = new System.Windows.Forms.Label();
+            this.lbl_disarmed = new System.Windows.Forms.Label();
+            this.lbl_on = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.window1Group.SuspendLayout();
             this.window2Group.SuspendLayout();
@@ -62,6 +79,17 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_window2_up)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_window4_up)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_window5_up)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window1_down)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window2_down)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window3_down)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window4_down)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window5_down)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_unlocked)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_disarmed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_started)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_locked)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_armed)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_off)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
@@ -289,54 +317,261 @@
             // 
             // pb_window3_up
             // 
+            this.pb_window3_up.Image = global::Remozo_Application.Properties.Resources.openArrow;
             this.pb_window3_up.Location = new System.Drawing.Point(380, 763);
             this.pb_window3_up.Name = "pb_window3_up";
-            this.pb_window3_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window3_up.Size = new System.Drawing.Size(35, 50);
             this.pb_window3_up.TabIndex = 15;
             this.pb_window3_up.TabStop = false;
             this.pb_window3_up.Click += new System.EventHandler(this.pb_window3_Click);
             // 
             // pb_window1_up
             // 
+            this.pb_window1_up.Image = global::Remozo_Application.Properties.Resources.openArrow;
             this.pb_window1_up.Location = new System.Drawing.Point(102, 763);
             this.pb_window1_up.Name = "pb_window1_up";
-            this.pb_window1_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window1_up.Size = new System.Drawing.Size(35, 50);
             this.pb_window1_up.TabIndex = 16;
             this.pb_window1_up.TabStop = false;
             this.pb_window1_up.Click += new System.EventHandler(this.pb_window1_Click);
             // 
             // pb_window2_up
             // 
+            this.pb_window2_up.Image = global::Remozo_Application.Properties.Resources.openArrow;
             this.pb_window2_up.Location = new System.Drawing.Point(102, 864);
             this.pb_window2_up.Name = "pb_window2_up";
-            this.pb_window2_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window2_up.Size = new System.Drawing.Size(35, 50);
             this.pb_window2_up.TabIndex = 17;
             this.pb_window2_up.TabStop = false;
             this.pb_window2_up.Click += new System.EventHandler(this.pb_window2_Click);
             // 
             // pb_window4_up
             // 
+            this.pb_window4_up.Image = global::Remozo_Application.Properties.Resources.openArrow;
             this.pb_window4_up.Location = new System.Drawing.Point(380, 864);
             this.pb_window4_up.Name = "pb_window4_up";
-            this.pb_window4_up.Size = new System.Drawing.Size(49, 50);
+            this.pb_window4_up.Size = new System.Drawing.Size(35, 50);
             this.pb_window4_up.TabIndex = 18;
             this.pb_window4_up.TabStop = false;
             this.pb_window4_up.Click += new System.EventHandler(this.pb_window4_Click);
             // 
             // pb_window5_up
             // 
-            this.pb_window5_up.Location = new System.Drawing.Point(232, 787);
+            this.pb_window5_up.Image = global::Remozo_Application.Properties.Resources.openArrow;
+            this.pb_window5_up.Location = new System.Drawing.Point(244, 787);
             this.pb_window5_up.Name = "pb_window5_up";
-            this.pb_window5_up.Size = new System.Drawing.Size(56, 50);
+            this.pb_window5_up.Size = new System.Drawing.Size(37, 50);
             this.pb_window5_up.TabIndex = 19;
             this.pb_window5_up.TabStop = false;
             this.pb_window5_up.Click += new System.EventHandler(this.pb_window5_Click);
+            // 
+            // pb_window1_down
+            // 
+            this.pb_window1_down.Image = global::Remozo_Application.Properties.Resources.downArrow;
+            this.pb_window1_down.Location = new System.Drawing.Point(102, 763);
+            this.pb_window1_down.Name = "pb_window1_down";
+            this.pb_window1_down.Size = new System.Drawing.Size(35, 50);
+            this.pb_window1_down.TabIndex = 20;
+            this.pb_window1_down.TabStop = false;
+            this.pb_window1_down.Click += new System.EventHandler(this.pb_window1_down_Click);
+            // 
+            // pb_window2_down
+            // 
+            this.pb_window2_down.Image = global::Remozo_Application.Properties.Resources.downArrow;
+            this.pb_window2_down.Location = new System.Drawing.Point(102, 864);
+            this.pb_window2_down.Name = "pb_window2_down";
+            this.pb_window2_down.Size = new System.Drawing.Size(35, 50);
+            this.pb_window2_down.TabIndex = 21;
+            this.pb_window2_down.TabStop = false;
+            // 
+            // pb_window3_down
+            // 
+            this.pb_window3_down.Image = global::Remozo_Application.Properties.Resources.downArrow;
+            this.pb_window3_down.Location = new System.Drawing.Point(380, 763);
+            this.pb_window3_down.Name = "pb_window3_down";
+            this.pb_window3_down.Size = new System.Drawing.Size(35, 50);
+            this.pb_window3_down.TabIndex = 22;
+            this.pb_window3_down.TabStop = false;
+            // 
+            // pb_window4_down
+            // 
+            this.pb_window4_down.Image = global::Remozo_Application.Properties.Resources.downArrow;
+            this.pb_window4_down.Location = new System.Drawing.Point(380, 864);
+            this.pb_window4_down.Name = "pb_window4_down";
+            this.pb_window4_down.Size = new System.Drawing.Size(35, 50);
+            this.pb_window4_down.TabIndex = 23;
+            this.pb_window4_down.TabStop = false;
+            // 
+            // pb_window5_down
+            // 
+            this.pb_window5_down.Image = global::Remozo_Application.Properties.Resources.downArrow;
+            this.pb_window5_down.Location = new System.Drawing.Point(244, 787);
+            this.pb_window5_down.Name = "pb_window5_down";
+            this.pb_window5_down.Size = new System.Drawing.Size(37, 50);
+            this.pb_window5_down.TabIndex = 24;
+            this.pb_window5_down.TabStop = false;
+            // 
+            // pb_unlocked
+            // 
+            this.pb_unlocked.BackColor = System.Drawing.Color.White;
+            this.pb_unlocked.Image = global::Remozo_Application.Properties.Resources.unlocked;
+            this.pb_unlocked.Location = new System.Drawing.Point(58, 252);
+            this.pb_unlocked.Name = "pb_unlocked";
+            this.pb_unlocked.Size = new System.Drawing.Size(104, 107);
+            this.pb_unlocked.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_unlocked.TabIndex = 25;
+            this.pb_unlocked.TabStop = false;
+            this.pb_unlocked.Click += new System.EventHandler(this.pb_unlocked_Click);
+            // 
+            // pb_disarmed
+            // 
+            this.pb_disarmed.BackColor = System.Drawing.Color.White;
+            this.pb_disarmed.Image = global::Remozo_Application.Properties.Resources.disarmed;
+            this.pb_disarmed.Location = new System.Drawing.Point(207, 252);
+            this.pb_disarmed.Name = "pb_disarmed";
+            this.pb_disarmed.Size = new System.Drawing.Size(104, 107);
+            this.pb_disarmed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_disarmed.TabIndex = 26;
+            this.pb_disarmed.TabStop = false;
+            this.pb_disarmed.Click += new System.EventHandler(this.pb_disarmed_Click);
+            // 
+            // pb_started
+            // 
+            this.pb_started.BackColor = System.Drawing.Color.White;
+            this.pb_started.Image = global::Remozo_Application.Properties.Resources.poweredOn;
+            this.pb_started.Location = new System.Drawing.Point(363, 252);
+            this.pb_started.Name = "pb_started";
+            this.pb_started.Size = new System.Drawing.Size(104, 107);
+            this.pb_started.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_started.TabIndex = 27;
+            this.pb_started.TabStop = false;
+            this.pb_started.Click += new System.EventHandler(this.pb_started_Click);
+            // 
+            // pb_locked
+            // 
+            this.pb_locked.BackColor = System.Drawing.Color.White;
+            this.pb_locked.Image = global::Remozo_Application.Properties.Resources.locked;
+            this.pb_locked.Location = new System.Drawing.Point(58, 252);
+            this.pb_locked.Name = "pb_locked";
+            this.pb_locked.Size = new System.Drawing.Size(104, 107);
+            this.pb_locked.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pb_locked.TabIndex = 28;
+            this.pb_locked.TabStop = false;
+            this.pb_locked.Click += new System.EventHandler(this.pb_locked_Click);
+            // 
+            // pb_armed
+            // 
+            this.pb_armed.BackColor = System.Drawing.Color.White;
+            this.pb_armed.Image = global::Remozo_Application.Properties.Resources.armed;
+            this.pb_armed.Location = new System.Drawing.Point(207, 252);
+            this.pb_armed.Name = "pb_armed";
+            this.pb_armed.Size = new System.Drawing.Size(104, 107);
+            this.pb_armed.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_armed.TabIndex = 29;
+            this.pb_armed.TabStop = false;
+            this.pb_armed.Click += new System.EventHandler(this.pb_armed_Click);
+            // 
+            // pb_off
+            // 
+            this.pb_off.BackColor = System.Drawing.Color.White;
+            this.pb_off.Image = global::Remozo_Application.Properties.Resources.poweredOff;
+            this.pb_off.Location = new System.Drawing.Point(363, 252);
+            this.pb_off.Name = "pb_off";
+            this.pb_off.Size = new System.Drawing.Size(104, 107);
+            this.pb_off.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_off.TabIndex = 30;
+            this.pb_off.TabStop = false;
+            this.pb_off.Click += new System.EventHandler(this.pb_off_Click);
+            // 
+            // lbl_locked
+            // 
+            this.lbl_locked.AutoSize = true;
+            this.lbl_locked.BackColor = System.Drawing.Color.White;
+            this.lbl_locked.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_locked.Location = new System.Drawing.Point(73, 371);
+            this.lbl_locked.Name = "lbl_locked";
+            this.lbl_locked.Size = new System.Drawing.Size(76, 25);
+            this.lbl_locked.TabIndex = 31;
+            this.lbl_locked.Text = "Locked";
+            this.lbl_locked.Click += new System.EventHandler(this.lbl_locked_Click);
+            // 
+            // lbl_armed
+            // 
+            this.lbl_armed.AutoSize = true;
+            this.lbl_armed.BackColor = System.Drawing.Color.White;
+            this.lbl_armed.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_armed.Location = new System.Drawing.Point(221, 371);
+            this.lbl_armed.Name = "lbl_armed";
+            this.lbl_armed.Size = new System.Drawing.Size(72, 25);
+            this.lbl_armed.TabIndex = 32;
+            this.lbl_armed.Text = "Armed";
+            this.lbl_armed.Click += new System.EventHandler(this.lbl_armed_Click);
+            // 
+            // lbl_off
+            // 
+            this.lbl_off.AutoSize = true;
+            this.lbl_off.BackColor = System.Drawing.Color.White;
+            this.lbl_off.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_off.Location = new System.Drawing.Point(397, 371);
+            this.lbl_off.Name = "lbl_off";
+            this.lbl_off.Size = new System.Drawing.Size(40, 25);
+            this.lbl_off.TabIndex = 33;
+            this.lbl_off.Text = "Off";
+            this.lbl_off.Visible = false;
+            // 
+            // lbl_unlocked
+            // 
+            this.lbl_unlocked.AutoSize = true;
+            this.lbl_unlocked.BackColor = System.Drawing.Color.White;
+            this.lbl_unlocked.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_unlocked.Location = new System.Drawing.Point(65, 371);
+            this.lbl_unlocked.Name = "lbl_unlocked";
+            this.lbl_unlocked.Size = new System.Drawing.Size(97, 25);
+            this.lbl_unlocked.TabIndex = 34;
+            this.lbl_unlocked.Text = "Unlocked";
+            this.lbl_unlocked.Visible = false;
+            // 
+            // lbl_disarmed
+            // 
+            this.lbl_disarmed.AutoSize = true;
+            this.lbl_disarmed.BackColor = System.Drawing.Color.White;
+            this.lbl_disarmed.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_disarmed.Location = new System.Drawing.Point(211, 371);
+            this.lbl_disarmed.Name = "lbl_disarmed";
+            this.lbl_disarmed.Size = new System.Drawing.Size(96, 25);
+            this.lbl_disarmed.TabIndex = 35;
+            this.lbl_disarmed.Text = "Disarmed";
+            this.lbl_disarmed.Visible = false;
+            // 
+            // lbl_on
+            // 
+            this.lbl_on.AutoSize = true;
+            this.lbl_on.BackColor = System.Drawing.Color.White;
+            this.lbl_on.Font = new System.Drawing.Font("Segoe UI", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lbl_on.Location = new System.Drawing.Point(397, 371);
+            this.lbl_on.Name = "lbl_on";
+            this.lbl_on.Size = new System.Drawing.Size(38, 25);
+            this.lbl_on.TabIndex = 36;
+            this.lbl_on.Text = "On";
+            this.lbl_on.Click += new System.EventHandler(this.lbl_on_Click);
             // 
             // control
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
+            this.Controls.Add(this.lbl_on);
+            this.Controls.Add(this.lbl_off);
+            this.Controls.Add(this.lbl_armed);
+            this.Controls.Add(this.lbl_disarmed);
+            this.Controls.Add(this.lbl_locked);
+            this.Controls.Add(this.lbl_unlocked);
+            this.Controls.Add(this.pb_off);
+            this.Controls.Add(this.pb_armed);
+            this.Controls.Add(this.pb_locked);
+            this.Controls.Add(this.pb_started);
+            this.Controls.Add(this.pb_disarmed);
+            this.Controls.Add(this.pb_unlocked);
             this.Controls.Add(this.pb_window5_up);
             this.Controls.Add(this.pb_window4_up);
             this.Controls.Add(this.pb_window2_up);
@@ -349,11 +584,17 @@
             this.Controls.Add(this.window1Group);
             this.Controls.Add(this.btn_diableVehicle);
             this.Controls.Add(this.btn_back);
+            this.Controls.Add(this.pb_window1_down);
+            this.Controls.Add(this.pb_window2_down);
+            this.Controls.Add(this.pb_window3_down);
+            this.Controls.Add(this.pb_window4_down);
+            this.Controls.Add(this.pb_window5_down);
             this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(538, 1141);
             this.MinimumSize = new System.Drawing.Size(538, 1141);
             this.Name = "control";
             this.Text = "control";
+            this.Load += new System.EventHandler(this.control_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.window1Group.ResumeLayout(false);
             this.window1Group.PerformLayout();
@@ -370,7 +611,19 @@
             ((System.ComponentModel.ISupportInitialize)(this.pb_window2_up)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_window4_up)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_window5_up)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window1_down)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window2_down)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window3_down)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window4_down)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_window5_down)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_unlocked)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_disarmed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_started)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_locked)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_armed)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_off)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -399,5 +652,22 @@
         private PictureBox pb_window2_up;
         private PictureBox pb_window4_up;
         private PictureBox pb_window5_up;
+        private PictureBox pb_window1_down;
+        private PictureBox pb_window2_down;
+        private PictureBox pb_window3_down;
+        private PictureBox pb_window4_down;
+        private PictureBox pb_window5_down;
+        private PictureBox pb_unlocked;
+        private PictureBox pb_disarmed;
+        private PictureBox pb_started;
+        private PictureBox pb_locked;
+        private PictureBox pb_armed;
+        private PictureBox pb_off;
+        private Label lbl_locked;
+        private Label lbl_armed;
+        private Label lbl_off;
+        private Label lbl_unlocked;
+        private Label lbl_disarmed;
+        private Label lbl_on;
     }
 }
