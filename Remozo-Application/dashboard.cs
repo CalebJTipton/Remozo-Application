@@ -15,6 +15,17 @@ namespace Remozo_Application
         public dashboard()
         {
             InitializeComponent();
+
+            pb_locked.Visible = true;
+            pb_armed.Visible = true;
+            pb_off.Visible = true;
+
+            lbl_locked.Visible = true;
+            lbl_armed.Visible = true;
+            lbl_off.Visible = true;
+            lbl_unlocked.Visible = false;
+            lbl_disarmed.Visible = false;
+            lbl_on.Visible = false;
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -63,6 +74,50 @@ namespace Remozo_Application
             addVehicle addVehicle = new addVehicle();
             addVehicle.Show();
             Close();
+        }
+
+        private void pb_unlocked_Click(object sender, EventArgs e)
+        {
+            pb_locked.Visible = true;
+            lbl_unlocked.Visible = false;
+            lbl_locked.Visible = true;
+        }
+
+        private void pb_disarmed_Click(object sender, EventArgs e)
+        {
+            pb_armed.Visible = true;
+            lbl_armed.Visible = true;
+            lbl_disarmed.Visible = false;
+        }
+
+        private void pb_started_Click(object sender, EventArgs e)
+        {
+            pb_off.Visible = true;
+            lbl_off.Visible = true;
+            lbl_on.Visible = false;
+
+
+        }
+
+        private void pb_locked_Click(object sender, EventArgs e)
+        {
+            pb_locked.Visible = false;
+            lbl_locked.Visible = false;
+            lbl_unlocked.Visible = true;
+        }
+
+        private void pb_armed_Click(object sender, EventArgs e)
+        {
+            pb_armed.Visible = false;
+            lbl_armed.Visible = false;
+            lbl_disarmed.Visible = true;
+        }
+
+        private void pb_off_Click(object sender, EventArgs e)
+        {
+            pb_off.Visible = false;
+            lbl_off.Visible = false;
+            lbl_on.Visible = true;
         }
     }
 }
