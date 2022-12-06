@@ -30,5 +30,17 @@ namespace Remozo_Application
             addVehicle.Show();
             Close();
         }
+
+        private void lbl_jeepWrangler_Click(object sender, EventArgs e)
+        {
+            dashboard dashboard = new dashboard();
+            dashboard.Show();
+            Close();
+        }
+
+        private void lbl_porcheTaycan_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vehicle is checked out, check back later.");
+        }
     }
 }

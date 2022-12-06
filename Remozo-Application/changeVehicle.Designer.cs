@@ -31,6 +31,8 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_addVehicle = new System.Windows.Forms.Button();
+            this.lbl_jeepWrangler = new System.Windows.Forms.Label();
+            this.lbl_porcheTaycan = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -48,7 +50,7 @@
             this.btn_back.BackColor = System.Drawing.Color.White;
             this.btn_back.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 14F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
             this.btn_back.Location = new System.Drawing.Point(47, 153);
             this.btn_back.Name = "btn_back";
             this.btn_back.Size = new System.Drawing.Size(77, 40);
@@ -72,11 +74,37 @@
             this.btn_addVehicle.UseVisualStyleBackColor = false;
             this.btn_addVehicle.Click += new System.EventHandler(this.btn_addVehicle_Click);
             // 
+            // lbl_jeepWrangler
+            // 
+            this.lbl_jeepWrangler.AutoSize = true;
+            this.lbl_jeepWrangler.BackColor = System.Drawing.Color.White;
+            this.lbl_jeepWrangler.Font = new System.Drawing.Font("Segoe UI", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lbl_jeepWrangler.Location = new System.Drawing.Point(213, 303);
+            this.lbl_jeepWrangler.Name = "lbl_jeepWrangler";
+            this.lbl_jeepWrangler.Size = new System.Drawing.Size(317, 59);
+            this.lbl_jeepWrangler.TabIndex = 4;
+            this.lbl_jeepWrangler.Text = "Jeep Wrangler";
+            this.lbl_jeepWrangler.Click += new System.EventHandler(this.lbl_jeepWrangler_Click);
+            // 
+            // lbl_porcheTaycan
+            // 
+            this.lbl_porcheTaycan.AutoSize = true;
+            this.lbl_porcheTaycan.BackColor = System.Drawing.Color.White;
+            this.lbl_porcheTaycan.Font = new System.Drawing.Font("Segoe UI", 32.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.lbl_porcheTaycan.Location = new System.Drawing.Point(213, 482);
+            this.lbl_porcheTaycan.Name = "lbl_porcheTaycan";
+            this.lbl_porcheTaycan.Size = new System.Drawing.Size(312, 59);
+            this.lbl_porcheTaycan.TabIndex = 5;
+            this.lbl_porcheTaycan.Text = "Porche Taycan";
+            this.lbl_porcheTaycan.Click += new System.EventHandler(this.lbl_porcheTaycan_Click);
+            // 
             // changeVehicle
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
+            this.Controls.Add(this.lbl_porcheTaycan);
+            this.Controls.Add(this.lbl_jeepWrangler);
             this.Controls.Add(this.btn_addVehicle);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.pictureBox1);
@@ -86,6 +114,7 @@
             this.Text = "Remozo - Garage";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -94,5 +123,7 @@
         private PictureBox pictureBox1;
         private Button btn_back;
         private Button btn_addVehicle;
+        private Label lbl_jeepWrangler;
+        private Label lbl_porcheTaycan;
     }
 }

@@ -344,7 +344,7 @@
             this.MaximumSize = new System.Drawing.Size(538, 1141);
             this.MinimumSize = new System.Drawing.Size(538, 1141);
             this.Name = "settings";
-            this.Text = "settings";
+            this.Text = "Remozo - Settings";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.darkModeGroup.ResumeLayout(false);
             this.darkModeGroup.PerformLayout();
