@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public addVehicle()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 
@@ -32,6 +33,21 @@ namespace Remozo_Application
         }
 
         private void rbtn_EV_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_make_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txt_model_TextChanged(object sender, EventArgs e)
         {
 
         }

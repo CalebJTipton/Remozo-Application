@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public settings_darkMode()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 
@@ -49,6 +50,11 @@ namespace Remozo_Application
                 rbtn_geofence_disabled.Checked = true;
                 MessageBox.Show("Before turning on Geofence\nplease enter a desired area.");
             }
+        }
+
+        private void rbtn_darkMode_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

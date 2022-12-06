@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public changeVehicle()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 

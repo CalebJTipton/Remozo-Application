@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public control()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
 
             pb_window1_up.Visible = false;

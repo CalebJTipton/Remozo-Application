@@ -15,6 +15,7 @@ namespace Remozo_Application
     {
         public create_account()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
 
             cb_country.Items.Add("United States");

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Forms.VisualStyles;
 
 namespace Remozo_Application
 {
@@ -14,6 +15,7 @@ namespace Remozo_Application
     {
         public login()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 

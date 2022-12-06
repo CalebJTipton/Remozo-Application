@@ -319,6 +319,7 @@
             this.rbtn_darkMode_enabled.TabStop = true;
             this.rbtn_darkMode_enabled.Text = "Enabled";
             this.rbtn_darkMode_enabled.UseVisualStyleBackColor = true;
+            this.rbtn_darkMode_enabled.CheckedChanged += new System.EventHandler(this.rbtn_darkMode_enabled_CheckedChanged);
             // 
             // settings_darkMode
             // 

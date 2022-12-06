@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public locate()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 

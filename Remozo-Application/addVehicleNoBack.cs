@@ -15,6 +15,7 @@ namespace Remozo_Application
         
         public addVehicleNoBack()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 

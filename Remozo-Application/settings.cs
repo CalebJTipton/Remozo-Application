@@ -17,9 +17,9 @@ namespace Remozo_Application
 
         public settings()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
-            //chk_darkModeEnabled.Appearance = System.Windows.Forms.Appearance.Button;
-            //chk_darkModeDisabled.Appearance = System.Windows.Forms.Appearance.Button;
+
         }
 
         private void btn_back_Click(object sender, EventArgs e)
