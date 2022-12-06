@@ -64,10 +64,10 @@
             this.btn_back.BackColor = System.Drawing.Color.White;
             this.btn_back.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_back.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
-            this.btn_back.Location = new System.Drawing.Point(43, 148);
+            this.btn_back.Font = new System.Drawing.Font("Segoe UI", 16F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_back.Location = new System.Drawing.Point(43, 146);
             this.btn_back.Name = "btn_back";
-            this.btn_back.Size = new System.Drawing.Size(75, 36);
+            this.btn_back.Size = new System.Drawing.Size(75, 38);
             this.btn_back.TabIndex = 6;
             this.btn_back.Text = "back";
             this.btn_back.UseVisualStyleBackColor = false;
@@ -78,13 +78,14 @@
             this.btn_viewActivityLog.BackColor = System.Drawing.Color.White;
             this.btn_viewActivityLog.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.btn_viewActivityLog.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_viewActivityLog.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.btn_viewActivityLog.Location = new System.Drawing.Point(171, 906);
+            this.btn_viewActivityLog.Font = new System.Drawing.Font("Segoe UI", 11.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Underline))), System.Drawing.GraphicsUnit.Point);
+            this.btn_viewActivityLog.Location = new System.Drawing.Point(168, 903);
             this.btn_viewActivityLog.Name = "btn_viewActivityLog";
-            this.btn_viewActivityLog.Size = new System.Drawing.Size(199, 33);
+            this.btn_viewActivityLog.Size = new System.Drawing.Size(199, 36);
             this.btn_viewActivityLog.TabIndex = 7;
             this.btn_viewActivityLog.Text = "View Activity Log";
             this.btn_viewActivityLog.UseVisualStyleBackColor = false;
+            this.btn_viewActivityLog.Click += new System.EventHandler(this.btn_viewActivityLog_Click);
             // 
             // locate
             // 

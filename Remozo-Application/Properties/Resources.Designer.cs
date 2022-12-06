@@ -93,6 +93,16 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Activity {
+            get {
+                object obj = ResourceManager.GetObject("App - Activity", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Add_Vehicle {
             get {
                 object obj = ResourceManager.GetObject("App - Add Vehicle", resourceCulture);
