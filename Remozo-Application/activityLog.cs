@@ -10,18 +10,11 @@ using System.Windows.Forms;
 
 namespace Remozo_Application
 {
-    public partial class addVehicleNoBack : Form
+    public partial class activityLog : Form
     {
-        public addVehicleNoBack()
+        public activityLog()
         {
             InitializeComponent();
-        }
-
-        private void btn_addVehicle_Click(object sender, EventArgs e)
-        {
-            dashboard dashboard = new dashboard();
-            dashboard.Show();
-            Close();
         }
     }
 }

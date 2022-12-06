@@ -23,5 +23,17 @@ namespace Remozo_Application
             dashboard.Show();
             Close();
         }
+
+        private void btn_addVehicle_Click(object sender, EventArgs e)
+        {
+            dashboard dashboard = new dashboard();
+            dashboard.Show();
+            Close();
+        }
+
+        private void rbtn_EV_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

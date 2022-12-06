@@ -41,5 +41,14 @@ namespace Remozo_Application
             MessageBox.Show("Version 1.01 is up to date. \n" +
                       "No new updates available.");
         }
+
+        private void rbtn_geofence_enabled_CheckedChanged(object sender, EventArgs e)
+        {
+            if (txt_geofence.Text == "")
+            {
+                rbtn_geofence_disabled.Checked = true;
+                MessageBox.Show("Before turning on Geofence\nplease enter a desired area.");
+            }
+        }
     }
 }

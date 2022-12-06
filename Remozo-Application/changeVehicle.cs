@@ -23,5 +23,12 @@ namespace Remozo_Application
             dashboard.Show();
             Close();
         }
+
+        private void btn_addVehicle_Click(object sender, EventArgs e)
+        {
+            addVehicle addVehicle = new addVehicle();
+            addVehicle.Show();
+            Close();
+        }
     }
 }

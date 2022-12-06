@@ -33,8 +33,9 @@
             this.txt_phoneNumber = new System.Windows.Forms.TextBox();
             this.txt_password = new System.Windows.Forms.TextBox();
             this.txt_confirmPassword = new System.Windows.Forms.TextBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cb_country = new System.Windows.Forms.ComboBox();
             this.btn_createAccount = new System.Windows.Forms.Button();
+            this.backgroundWorker1 = new System.ComponentModel.BackgroundWorker();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -78,13 +79,14 @@
             this.txt_confirmPassword.TabIndex = 4;
             this.txt_confirmPassword.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // comboBox1
+            // cb_country
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(79, 553);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(359, 23);
-            this.comboBox1.TabIndex = 5;
+            this.cb_country.FormattingEnabled = true;
+            this.cb_country.Location = new System.Drawing.Point(79, 553);
+            this.cb_country.Name = "cb_country";
+            this.cb_country.Size = new System.Drawing.Size(359, 23);
+            this.cb_country.TabIndex = 5;
+            this.cb_country.SelectedIndexChanged += new System.EventHandler(this.cb_country_SelectedIndexChanged);
             // 
             // btn_createAccount
             // 
@@ -106,7 +108,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(522, 1102);
             this.Controls.Add(this.btn_createAccount);
-            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.cb_country);
             this.Controls.Add(this.txt_confirmPassword);
             this.Controls.Add(this.txt_password);
             this.Controls.Add(this.txt_phoneNumber);
@@ -130,7 +132,8 @@
         private TextBox txt_phoneNumber;
         private TextBox txt_password;
         private TextBox txt_confirmPassword;
-        private ComboBox comboBox1;
+        private ComboBox cb_country;
         private Button btn_createAccount;
+        private System.ComponentModel.BackgroundWorker backgroundWorker1;
     }
 }

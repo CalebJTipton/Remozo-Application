@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.txt_geoFence = new System.Windows.Forms.TextBox();
+            this.txt_geofence = new System.Windows.Forms.TextBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_checkUpdates = new System.Windows.Forms.Button();
@@ -70,13 +70,13 @@
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
-            // txt_geoFence
+            // txt_geofence
             // 
-            this.txt_geoFence.Location = new System.Drawing.Point(33, 570);
-            this.txt_geoFence.Name = "txt_geoFence";
-            this.txt_geoFence.Size = new System.Drawing.Size(396, 23);
-            this.txt_geoFence.TabIndex = 1;
-            this.txt_geoFence.TextChanged += new System.EventHandler(this.txt_geoFence_TextChanged);
+            this.txt_geofence.Location = new System.Drawing.Point(33, 570);
+            this.txt_geofence.Name = "txt_geofence";
+            this.txt_geofence.Size = new System.Drawing.Size(396, 23);
+            this.txt_geofence.TabIndex = 1;
+            this.txt_geofence.TextChanged += new System.EventHandler(this.txt_geoFence_TextChanged);
             // 
             // textBox1
             // 
@@ -339,7 +339,7 @@
             this.Controls.Add(this.btn_checkUpdates);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.txt_geoFence);
+            this.Controls.Add(this.txt_geofence);
             this.Controls.Add(this.pictureBox1);
             this.MaximumSize = new System.Drawing.Size(538, 1141);
             this.MinimumSize = new System.Drawing.Size(538, 1141);
@@ -366,7 +366,7 @@
         #endregion
 
         private PictureBox pictureBox1;
-        private TextBox txt_geoFence;
+        private TextBox txt_geofence;
         private TextBox textBox1;
         private Button btn_back;
         private Button btn_checkUpdates;

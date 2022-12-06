@@ -31,7 +31,7 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.btn_back = new System.Windows.Forms.Button();
             this.btn_checkUpdates = new System.Windows.Forms.Button();
-            this.txt_geoFence = new System.Windows.Forms.TextBox();
+            this.txt_geofence = new System.Windows.Forms.TextBox();
             this.txt_userList = new System.Windows.Forms.TextBox();
             this.vibrationGroup = new System.Windows.Forms.GroupBox();
             this.rbtn_vibration_disabled = new System.Windows.Forms.RadioButton();
@@ -100,12 +100,12 @@
             this.btn_checkUpdates.UseVisualStyleBackColor = false;
             this.btn_checkUpdates.Click += new System.EventHandler(this.btn_checkUpdates_Click);
             // 
-            // txt_geoFence
+            // txt_geofence
             // 
-            this.txt_geoFence.Location = new System.Drawing.Point(32, 572);
-            this.txt_geoFence.Name = "txt_geoFence";
-            this.txt_geoFence.Size = new System.Drawing.Size(394, 23);
-            this.txt_geoFence.TabIndex = 3;
+            this.txt_geofence.Location = new System.Drawing.Point(32, 572);
+            this.txt_geofence.Name = "txt_geofence";
+            this.txt_geofence.Size = new System.Drawing.Size(394, 23);
+            this.txt_geofence.TabIndex = 3;
             // 
             // txt_userList
             // 
@@ -249,6 +249,7 @@
             this.rbtn_geofence_enabled.TabIndex = 0;
             this.rbtn_geofence_enabled.Text = "Enabled";
             this.rbtn_geofence_enabled.UseVisualStyleBackColor = true;
+            this.rbtn_geofence_enabled.CheckedChanged += new System.EventHandler(this.rbtn_geofence_enabled_CheckedChanged);
             // 
             // maintenanceAlertGroup
             // 
@@ -331,7 +332,7 @@
             this.Controls.Add(this.maintenanceAlertGroup);
             this.Controls.Add(this.darkModeGroup);
             this.Controls.Add(this.txt_userList);
-            this.Controls.Add(this.txt_geoFence);
+            this.Controls.Add(this.txt_geofence);
             this.Controls.Add(this.btn_checkUpdates);
             this.Controls.Add(this.btn_back);
             this.Controls.Add(this.pictureBox1);
@@ -362,7 +363,7 @@
         private PictureBox pictureBox1;
         private Button btn_back;
         private Button btn_checkUpdates;
-        private TextBox txt_geoFence;
+        private TextBox txt_geofence;
         private TextBox txt_userList;
         private GroupBox vibrationGroup;
         private RadioButton rbtn_vibration_disabled;

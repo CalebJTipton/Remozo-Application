@@ -78,7 +78,11 @@ namespace Remozo_Application
 
         private void rbtn_geofence_enabled_CheckedChanged(object sender, EventArgs e)
         {
-
+            if (txt_geofence.Text == "")
+            {
+                rbtn_geofence_disabled.Checked = true;
+                MessageBox.Show("Before turning on Geofence\nplease enter a desired area.");
+            }
         }
 
         private void rbtn_geofence_disabled_CheckedChanged(object sender, EventArgs e)
