@@ -28,5 +28,12 @@ namespace Remozo_Application
         {
             MessageBox.Show("Vehicle has been Disabled!");
         }
+
+        private void btn_viewActivityLog_Click(object sender, EventArgs e)
+        {
+            activityLog activity = new activityLog();
+            activity.Show();
+            Close();
+        }
     }
 }
