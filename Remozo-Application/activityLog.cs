@@ -16,5 +16,17 @@ namespace Remozo_Application
         {
             InitializeComponent();
         }
+
+        private void btn_disableVehicle_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Vehicle has been Disabled!");
+        }
+
+        private void btn_back_Click(object sender, EventArgs e)
+        {
+            dashboard dashboard = new dashboard();
+            dashboard.Show();
+            Close();
+        }
     }
 }

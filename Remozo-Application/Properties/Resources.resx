@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Locate" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Locate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="App - Dashboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App - Dashboard2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="App_-_Login_Page" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App_-_Login_Page.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -138,6 +138,12 @@
   </data>
   <data name="downArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\downArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App - Add Vehicle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App - Add Vehicle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="App_-_Login_Page1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App_-_Login_Page1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="App - Login or Create Account" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App - Login or Create Account.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,9 +166,6 @@
   <data name="App - Add Vehicle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App - Add Vehicle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="App - Dashboard2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App - Dashboard2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="disarmed" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\disarmed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -172,8 +175,8 @@
   <data name="unlocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\unlocked.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="App_-_Login_Page1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App_-_Login_Page1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Locate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Locate.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="App - Loading Screen1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App - Loading Screen1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -202,7 +205,7 @@
   <data name="App - Dashboard1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\App - Dashboard1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="App - Add Vehicle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\App - Add Vehicle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="App - Activity" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\App - Activity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>
