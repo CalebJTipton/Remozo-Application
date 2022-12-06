@@ -113,9 +113,39 @@ namespace Remozo_Application.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap App___Add_Vehicle__No_Toggle_ {
+            get {
+                object obj = ResourceManager.GetObject("App - Add Vehicle (No Toggle)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Add_Vehicle__No_Toggle_1 {
+            get {
+                object obj = ResourceManager.GetObject("App - Add Vehicle (No Toggle)1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap App___Add_Vehicle1 {
             get {
                 object obj = ResourceManager.GetObject("App - Add Vehicle1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap App___Add_Vehicle2 {
+            get {
+                object obj = ResourceManager.GetObject("App - Add Vehicle2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

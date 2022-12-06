@@ -55,7 +55,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Remozo_Application.Properties.Resources.App___Add_Vehicle1;
+            this.pictureBox1.Image = global::Remozo_Application.Properties.Resources.App___Add_Vehicle__No_Toggle_;
             this.pictureBox1.Location = new System.Drawing.Point(0, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(524, 1107);
