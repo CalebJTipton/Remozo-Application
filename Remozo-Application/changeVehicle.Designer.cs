@@ -70,6 +70,7 @@
             this.btn_addVehicle.TabIndex = 3;
             this.btn_addVehicle.Text = "Add Vehicle";
             this.btn_addVehicle.UseVisualStyleBackColor = false;
+            this.btn_addVehicle.Click += new System.EventHandler(this.btn_addVehicle_Click);
             // 
             // changeVehicle
             // 
