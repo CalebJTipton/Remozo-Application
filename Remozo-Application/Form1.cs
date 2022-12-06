@@ -4,9 +4,11 @@ namespace Remozo_Application
     {
         public Form1()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
             this.timer1.Start();
             nextPage();
+            
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -34,8 +36,8 @@ namespace Remozo_Application
             
             await Task.Delay(TimeSpan.FromSeconds(3));
 
-            userAuthSelect userAuthSelect = new userAuthSelect();
-
+            userAuthSelect userAuthSelect =  new userAuthSelect();
+            userAuthSelect.StartPosition = FormStartPosition.Manual;
             userAuthSelect.Show();
 
             Hide();
