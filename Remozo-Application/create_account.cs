@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Remozo_Application
 {
@@ -15,6 +16,10 @@ namespace Remozo_Application
         public create_account()
         {
             InitializeComponent();
+
+            cb_country.Items.Add("United States");
+            cb_country.Items.Add("Canada");
+            cb_country.Text = "--Select--";
         }
 
         private void create_account_Load(object sender, EventArgs e)
@@ -38,9 +43,16 @@ namespace Remozo_Application
             {
                 if (txt_password.Text == txt_confirmPassword.Text)
                 {
-                    dashboard dashboard = new dashboard();
-                    dashboard.Show();
-                    Hide();
+                    if (cb_country.Text != "--Select--")
+                    {
+                        addVehicleNoBack addVehicleNoBack = new addVehicleNoBack();
+                        addVehicleNoBack.Show();
+                        Hide();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Whoops! Please select a country.");
+                    }
                 }
                 else
                 {
@@ -52,6 +64,11 @@ namespace Remozo_Application
                 MessageBox.Show("Whoops! It appears you did not enter a password/confirm password");
             }
            
+        }
+
+        private void cb_country_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
