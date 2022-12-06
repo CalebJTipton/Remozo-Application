@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public maintain()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 
@@ -27,6 +28,11 @@ namespace Remozo_Application
             dashboard dashboard = new dashboard();
             dashboard.Show();
             Close();
+
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
 
         }
     }

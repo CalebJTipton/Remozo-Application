@@ -37,7 +37,6 @@ namespace Remozo_Application
             await Task.Delay(TimeSpan.FromSeconds(3));
 
             userAuthSelect userAuthSelect =  new userAuthSelect();
-            userAuthSelect.StartPosition = FormStartPosition.Manual;
             userAuthSelect.Show();
 
             Hide();

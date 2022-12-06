@@ -62,6 +62,7 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // btn_addVehicle
             // 
@@ -98,6 +99,7 @@
             this.txt_make.Name = "txt_make";
             this.txt_make.Size = new System.Drawing.Size(397, 23);
             this.txt_make.TabIndex = 3;
+            this.txt_make.TextChanged += new System.EventHandler(this.txt_make_TextChanged);
             // 
             // txt_model
             // 
@@ -105,6 +107,7 @@
             this.txt_model.Name = "txt_model";
             this.txt_model.Size = new System.Drawing.Size(397, 23);
             this.txt_model.TabIndex = 4;
+            this.txt_model.TextChanged += new System.EventHandler(this.txt_model_TextChanged);
             // 
             // txt_vin
             // 

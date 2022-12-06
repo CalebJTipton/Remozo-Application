@@ -14,13 +14,13 @@ namespace Remozo_Application
     {
         public userAuthSelect()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 
         private void btn_createAccount_Click(object sender, EventArgs e)
         {
             create_account create_Account = new create_account();
-
             create_Account.Show();
 
             Close();
@@ -29,9 +29,7 @@ namespace Remozo_Application
         private void btn_login_Click(object sender, EventArgs e)
         {
             login login = new login();
-
             login.Show();
-
             Close();
         }
 

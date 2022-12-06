@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public activityLog()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
         }
 

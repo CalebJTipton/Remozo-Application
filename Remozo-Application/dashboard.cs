@@ -14,6 +14,7 @@ namespace Remozo_Application
     {
         public dashboard()
         {
+            this.StartPosition = FormStartPosition.Manual;
             InitializeComponent();
 
             pb_locked.Visible = true;
